@@ -7,7 +7,6 @@ on:
 jobs:
   validar-html:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout do repositório
         uses: actions/checkout@v4
